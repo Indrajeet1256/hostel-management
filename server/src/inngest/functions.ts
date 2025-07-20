@@ -1,4 +1,4 @@
-import { client } from "./index.ts";
+import { client } from "./client.ts";
 
 const syncUserFromClerk = client.createFunction(
 	{
