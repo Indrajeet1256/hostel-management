@@ -2,8 +2,8 @@ import { config } from "dotenv";
 import express from "express";
 import { clerkMiddleware } from "@clerk/express";
 import { serve } from "inngest/express";
-import { client } from "./src/inngest/index.ts";
-import { functions } from "./src/inngest/functions.ts";
+import { client } from "./inngest/index.ts";
+import { functions } from "./inngest/functions.ts";
 
 config();
 
